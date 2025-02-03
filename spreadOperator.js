@@ -20,3 +20,21 @@ console.log(newArr2)
 
 
 
+const obj1 = {
+    name: 'Bobby',
+    course: 'English',
+    age: 24
+}
+
+const obj2 = {
+    age: 32,
+    
+}
+
+const obj3 = {
+    ...obj1, ...obj2
+}
+
+console.log(obj1)
+console.log(obj2)
+console.log(obj3)
